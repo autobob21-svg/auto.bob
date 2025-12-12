@@ -4,8 +4,8 @@ import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
 const galleryImages = [
   {
     id: 1,
-    src: "/src/assets/slika1mala.jpg",
-    fullSrc: "/src/assets/slika1.jpg",
+    src: "/assets/slika1mala.jpg",
+    fullSrc: "/assets/slika1.jpg",
     caption: "Šlep vozilo u akciji - Novi Sad"
   },
   {
