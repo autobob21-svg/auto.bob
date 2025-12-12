@@ -10,32 +10,32 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: "/src/assets/slika2mala.jpg",
-    fullSrc: "/src/assets/slika2.jpg",
+    src: "/assets/slika2mala.jpg",
+    fullSrc: "/assets/slika2.jpg",
     caption: "Transport automobila - autoput E75"
   },
   {
     id: 3,
-    src: "/src/assets/slika3mala.jpg",
-    fullSrc: "/src/assets/slika3.jpg",
+    src: "/assets/slika3mala.jpg",
+    fullSrc: "/assets/slika3.jpg",
     caption: "Bezbedan prevoz motocikla"
   },
   {
     id: 4,
-    src: "/src/assets/slika4mala.jpg",
-    fullSrc: "/src/assets/slika4.jpg",
+    src: "/assets/slika4mala.jpg",
+    fullSrc: "/assets/slika4.jpg",
     caption: "Nešto drugacije"
   },
   {
     id: 5,
-    src: "/src/assets/slika5mala.jpg",
-    fullSrc: "/src/assets/slika5.jpg",
+    src: "/assets/slika5mala.jpg",
+    fullSrc: "/assets/slika5.jpg",
     caption: "Međunarodni transport - Nemačka"
   },
   {
     id: 6,
-    src: "/src/assets/slika6mala.jpg",
-    fullSrc: "/src/assets/slika6.jpg",
+    src: "/assets/slika6mala.jpg",
+    fullSrc: "/assets/slika6.jpg",
     caption: "Prevoz paletene robe"
   }
 ];
