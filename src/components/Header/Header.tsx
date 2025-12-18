@@ -62,6 +62,13 @@ export const Header: React.FC = () => {
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
+      {/* POZOVI ODMAH dugme */}
+      <a 
+      href='tel:+381649125567'
+      className='fixed bottom-6 right-6 z-50 bg-red-600 hover:bg-red-700 text-white font-bold px-5 py-3 rounded-full shadow-lg transition'
+      >
+        POZOVI ODMAH
+      </a>
 
       {/* Mobile Menu Overlay */}
       <div 
