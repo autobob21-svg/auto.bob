@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { siteInfo, navItems } from '../../data/mock/siteInfo';
 import logo from '../../assets/logo.png';
+import { FaPhoneAlt } from "react-icons/fa";
 
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -65,9 +66,10 @@ export const Header: React.FC = () => {
       {/* POZOVI ODMAH dugme */}
       <a 
       href='tel:+381649125567'
-      className='fixed bottom-6 right-6 z-50 bg-red-600 hover:bg-red-700 text-white font-bold px-5 py-3 rounded-full shadow-lg transition'
+      className='fixed bottom-6 right-6 z-50 bg-red-600 hover:bg-red-700 text-white font-bold px-5 py-3 rounded-full shadow-lg transition flex items-center gap-3'
       >
-        POZOVI ODMAH
+        <FaPhoneAlt size={20} /> 
+        <span>POZOVI ODMAH</span>
       </a>
 
       {/* Mobile Menu Overlay */}
